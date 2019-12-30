@@ -54,19 +54,15 @@ public static void main(String[] args) {
     LightBulbs z11 = new LightBulbs("Osram", "Żarowa", 30, 230);
     LightBulbs z12 = new LightBulbs("Osram", "Żarowa", 0, 230);
 
-
-        // Menu switch
-
-        System.out.println("Wybierz co chcesz robiæ: ");
-        System.out.println("1. Wydrukować wszystkie zarówki");
-        System.out.println("2. Wydrukować wszystkie zapalone i zgaszone zarówki");
-        System.out.println("3. Zapalić żarówki 1, 2 i 5");
-        System.out.println("4. Zgasić zarówki 0, 3, 9, 11");
-        System.out.println("5. Wydrukować charakterystykę żarówki numer 5");
-        System.out.println("6. Zasić wszystkie żarówki");
-        System.out.println("7. Wyjście");
-
-
+     // Menu switch
+    System.out.println("Wybierz co chcesz robiæ: ");
+    System.out.println("1. Wydrukować wszystkie zarówki");
+    System.out.println("2. Wydrukować wszystkie zapalone i zgaszone zarówki");
+    System.out.println("3. Zapalić żarówki 1, 2 i 5");
+    System.out.println("4. Zgasić zarówki 0, 3, 9, 11");
+    System.out.println("5. Wydrukować charakterystykę żarówki numer 5");
+    System.out.println("6. Zasić wszystkie żarówki");
+    System.out.println("7. Wyjście");
 
 
         pętla:     while (true) {
@@ -106,8 +102,6 @@ public static void main(String[] args) {
                     System.out.println("Do widzenia");
                     break pętla;
             }
-
         }
         }
-
         }
