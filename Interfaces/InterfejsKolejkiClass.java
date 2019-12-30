@@ -98,9 +98,9 @@ public class InterfejsKolejkiClass {
 //    	System.out.println(kolejka.pobierzKolejnego());
     	Student Robert = new Student("Robert", "Micha³owski", "Nawigacyjny", "1997-12-12", 5.00);
     	Student Jan = new Student("Jan", "Nowak", "Mechaniczny", "1995-05-03", 4.55);
-		Student Bartosz = new Student ("Bartosz", "Malnowski", "Nawigacyjny", "1998-06-07", 2.13);
-		Student Zbyszek = new Student ("Zbyszek", "Zamachowksi", "Elektryczny", "1998-10-10", 4.37);
-		Student Adam = new Student ("Adamek", "Alkowski", "Elektryczny", "1998-10-10", 4.33);
+	Student Bartosz = new Student ("Bartosz", "Malnowski", "Nawigacyjny", "1998-06-07", 2.13);
+	Student Zbyszek = new Student ("Zbyszek", "Zamachowksi", "Elektryczny", "1998-10-10", 4.37);
+	Student Adam = new Student ("Adamek", "Alkowski", "Elektryczny", "1998-10-10", 4.33);
 
 		
 //    	System.out.println("Zadanie 4 " + kolejka.Testy(Robert));
