@@ -6,13 +6,11 @@ public class Dorozki extends Pojazdy{
 	String Marka="Drewniak";
 	
 	public void PrzegladPojazdu() {
-	System.out.println("\nSpecyfikacja przeglπdu dorozki:");
-	System.out.println("WymieÒ lejce");
-	System.out.println("WymieÒ lozyska w kolach");
-	System.out.println("Sprawdü dyszel");
-	System.out.println("WymieÒ drewniane deski");
-	
-	
+	System.out.println("\nSpecyfikacja przeglƒÖdu dorozki:");
+	System.out.println("Wymie≈Ñ lejce");
+	System.out.println("Wymie≈Ñ lozyska w kolach");
+	System.out.println("Sprawd≈∫ dyszel");
+	System.out.println("Wymie≈Ñ drewniane deski");
 }
 	public String zwrocTyp() {
 		return Typ;
@@ -28,6 +26,6 @@ public class Dorozki extends Pojazdy{
 
     @Override
     public String toString() {
-    	return   "\nSuper: " + getClass().getGenericSuperclass().getTypeName()+ ", klasa: "+ getClass().getTypeName()  +", Typ: " + Typ + ", marka: "+ Marka +", liczba kÛ≥: " + liczbaKol;
+    	return   "\nSuper: " + getClass().getGenericSuperclass().getTypeName()+ ", klasa: "+ getClass().getTypeName()  +", Typ: " + Typ + ", marka: "+ Marka +", liczba k√≥≈Ç: " + liczbaKol;
     }
 }
