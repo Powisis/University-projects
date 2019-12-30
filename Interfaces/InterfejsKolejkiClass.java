@@ -32,7 +32,6 @@ public class InterfejsKolejkiClass {
 					aL.add(aL.indexOf(st),x);
 					return false;
 				}
-			
 			}
 			return aL.add(x);
 		}
@@ -49,7 +48,7 @@ public class InterfejsKolejkiClass {
 		return aL.size();
 		}
 		
-		public int wystêpuje(Student x) {
+		public int wystÃªpuje(Student x) {
 		return 0;
 		}
 		
@@ -81,57 +80,39 @@ public class InterfejsKolejkiClass {
 		}
 
 		@Override
-		public ArrayList<Student> zwróæListê() {
+		public ArrayList<Student> zwrÃ³Ã¦ListÃª() {
 			// TODO Auto-generated method stub
 			return null;
-		}
-		
-		
-		
-		
-		
-			
-		
+		}		
 		};
 		
 
 		kolejka.dodajDoKolejki(new Student("Marek", "Kowlaski", "Elektryczny", "1998-11-11", 3.77));
 		kolejka.dodajDoKolejki(new Student("Piotr", "Kowal", "Mechaniczny", "1999-12-12", 5.00));
-		kolejka.dodajDoKolejki(new Student("Robert", "Micha³owski", "Nawigacyjny", "1997-12-12", 5.00));
+		kolejka.dodajDoKolejki(new Student("Robert", "MichaÂ³owski", "Nawigacyjny", "1997-12-12", 5.00));
 		kolejka.dodajDoKolejki(new Student("Janusz", "Antkiewicz", "Mechaniczny", "1998-08-11", 4.19));
-		kolejka.dodajDoKolejki(new Student("Stanis³aw", "Antczak", "Mechaniczny", "1998-01-11", 4.13));
+		kolejka.dodajDoKolejki(new Student("StanisÂ³aw", "Antczak", "Mechaniczny", "1998-01-11", 4.13));
 		
-    	//System.out.println(studenci.get(0).okreslWiek());
-    	
-
-    	
+//	System.out.println(studenci.get(0).okreslWiek());	
 //    	System.out.println(kolejka.rozmiar());   	
 //    	System.out.println(kolejka.pobierzKolejnego());
-    	Student Robert = new Student("Robert", "Micha³owski", "Nawigacyjny", "1997-12-12", 5.00);
+    	Student Robert = new Student("Robert", "MichaÂ³owski", "Nawigacyjny", "1997-12-12", 5.00);
     	Student Jan = new Student("Jan", "Nowak", "Mechaniczny", "1995-05-03", 4.55);
 		Student Bartosz = new Student ("Bartosz", "Malnowski", "Nawigacyjny", "1998-06-07", 2.13);
 		Student Zbyszek = new Student ("Zbyszek", "Zamachowksi", "Elektryczny", "1998-10-10", 4.37);
 		Student Adam = new Student ("Adamek", "Alkowski", "Elektryczny", "1998-10-10", 4.33);
 
 		
-		//Zadanie 4
 //    	System.out.println("Zadanie 4 " + kolejka.Testy(Robert));
     	
-    	//Zadanie 6
     	 	
     	int[] X = {0,1,2};
 //   	kolejka.wydrukujWybranych(X);
-    	
-    	//Zadanie7
 //    	kolejka.wydrukujWszystkich();
-    	
-    	//inna wersja
-    	
+		
+//	inna wersja
     	kolejka.dodajDoListy(Zbyszek);
     	kolejka.dodajDoListy(Adam);
     	kolejka.wydrukujWszystkich();
-
 	}
-
-
 }
