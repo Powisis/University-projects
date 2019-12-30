@@ -14,34 +14,23 @@ class Pracownik implements Comparable<Pracownik> {
         this.nazwisko = nazwisko;
         this.stanowisko = stanowisko;
         this.pensja = pensja;
-
     }
 
-    // get zwraca dane
     public String getImię() {
-
         return imię;
     }
 
     public String getNazwisko() {
-
         return nazwisko;
     }
 
-
     public String getStanowisko() {
-
         return stanowisko;
     }
-
 
     public double getPensja() {
         return pensja;
     }
-
-
-
-
 
 
     //@Override- Informacja, że nadpisuje oraz przestroga dla kompilatora by przepuścił tylko i wyłącznie gdy coś nadpisuje.
@@ -66,10 +55,7 @@ class Pracownik implements Comparable<Pracownik> {
 
 public class Zaliczenie {
 
-
     public static PriorityQueue<Pracownik> PracownicyKolejkaPriorytetowa;
-
-
 
     public static void main(String[] args) {
 
@@ -96,9 +82,6 @@ public class Zaliczenie {
         PracownicyKolejkaPriorytetowa.add(new Pracownik("Krzysztof","Bury", "Prezes", 50000));
         PracownicyKolejkaPriorytetowa.add(new Pracownik("Paulina", "Małachowska","Prezes", 50000));
 
-
-
-
         // Menu switch
         System.out.println("Wybierz co chcesz robić: ");
         System.out.println("1. Dodać do kolejki pracownika");
@@ -110,7 +93,6 @@ public class Zaliczenie {
 
         // Wczytywanie z klawiatury
         Scanner scanner = new Scanner(System.in);
-
 
         // Instrukcja sterująca switch
         // pętlą nieskońcozną while(true)
@@ -139,21 +121,14 @@ public class Zaliczenie {
             }
 
         }
-
-               //  Czyszczenie kolejki
-
+        
+        //  Czyszczenie kolejki
         System.out.println(" ");
         System.out.println("W kolejce pozostali a następnie zostali usunięci:");
         while (!PracownicyKolejkaPriorytetowa.isEmpty()) {
             System.out.println(PracownicyKolejkaPriorytetowa.remove());
         }
-
-
-
     }
-
-
-
 
     public static void dodajDoKolejki(PriorityQueue<Pracownik> kolejka ) {
         System.out.println("Podaj imię nowego pracownika");
@@ -175,6 +150,4 @@ public class Zaliczenie {
         kolejka.add(new Pracownik(imie, nazwisko, stanowskio, pensja));
         System.out.println("Dodano " + imie + " " + nazwisko + " " + stanowskio + " " + pensja);
     }
-
-
 }
